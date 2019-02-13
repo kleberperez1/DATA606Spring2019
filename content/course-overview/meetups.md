@@ -34,3 +34,8 @@ Wed, Apr 24           | NO MEETUP - Spring Break        |
 Wed, May 1, 8pm       | Intro to Bayesian Analysis      | 
 Wed, May 8, 8pm       | Wrap-Up                         | 
 
+<script>
+$(document.links).filter(function() {
+    return this.hostname != window.location.hostname;
+}).attr('target', '_blank');
+</script>
